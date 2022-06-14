@@ -1,0 +1,19 @@
+{
+  "name": "npmnotes",
+  "version": "1.0.0",
+  "description": "npm（Node Package Manager） 是 Node.js 标准的软件包管理器。",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "gh-pages -d dist",
+    "deploy:build": "npm run docs:build && gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "vuepress": "^1.9.7"
+  },
+  "dependencies": {}
+}
